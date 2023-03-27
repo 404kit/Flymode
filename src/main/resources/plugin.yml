@@ -1,0 +1,14 @@
+name: Flymode
+version: '${project.version}'
+main: com.kouno.flymode.Flymode
+api-version: 1.19
+
+commands:
+  fly:
+    description: Allows players with 404kit.fly permission to toggle fly mode on/off.
+    usage: /fly <on|off>
+    aliases: [fm]
+    permission: 404kit.fly
+    tab-completions:
+      - on
+      - off
